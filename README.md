@@ -44,7 +44,7 @@ a gentle pre-reminder before it, and a loud alarm when it starts.
 | **Your way** | Categories, priority (High and Urgent keep ringing until you answer), repeat, alarm sound, vibration and snooze per task. |
 | **Reliable** | Alarms survive restarts, app updates and time-zone changes. Missed alarms go to a Missed list. |
 | **Backup you control** | One `.tbk` file saved to a folder you pick, with a preview before restoring. Turn on automatic backup daily, weekly or monthly; it replaces one file so old backups never pile up. |
-| **Updates in the app** | TaskBell tells you when a new version is out and opens the download. Your tasks and alarms stay. |
+| **Updates in the app** | TaskBell tells you when a new version is out, downloads it and opens the installer. Your tasks and alarms stay. |
 
 ## Privacy
 
