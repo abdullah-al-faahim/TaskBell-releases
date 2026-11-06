@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- Source for assets/og-image.png (1200x630 link preview). Render with a headless browser at 1200x630. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  html,body{width:1200px;height:630px;overflow:hidden}
+  body{font-family:Inter,"Segoe UI",sans-serif;background:
+    radial-gradient(900px 600px at 85% 30%, #2B5CE6 0%, transparent 60%),
+    linear-gradient(135deg,#0B1E5B 0%,#1D4ED8 100%);color:#fff;position:relative}
+  .rings{position:absolute;right:-120px;top:-140px;width:760px;height:760px;opacity:.12}
+  .left{position:absolute;left:72px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center}
+  .brand{display:flex;align-items:center;gap:18px;margin-bottom:34px}
+  .brand img{width:72px;height:72px;border-radius:18px;box-shadow:0 0 0 3px rgba(255,255,255,.35),0 8px 24px rgba(0,0,0,.25)}
+  .brand span{font-size:40px;font-weight:800;letter-spacing:-.02em}
+  h1{font-size:72px;line-height:1.02;font-weight:800;letter-spacing:-.035em}
+  h1 em{font-style:normal;color:#BFD0FF}
+  p{margin-top:22px;font-size:25px;line-height:1.4;color:#DCE6FF;font-weight:500;max-width:520px}
+  .pills{display:flex;gap:12px;margin-top:34px}
+  .pill{padding:11px 20px;border-radius:999px;font-size:19px;font-weight:600}
+  .pill.dl{background:#fff;color:#1D4ED8;display:flex;align-items:center;gap:10px}
+  .pill.ghost{border:2px solid rgba(220,230,255,.45);color:#DCE6FF}
+  .phone{position:absolute;width:262px;padding:9px;border-radius:38px;background:#0E1116;
+    box-shadow:0 30px 70px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.08)}
+  .phone img{display:block;width:100%;border-radius:30px}
+  .p1{left:690px;top:70px;transform:rotate(-6deg)}
+  .p2{left:900px;top:40px;transform:rotate(5deg)}
+</style>
+</head>
+<body>
+  <svg class="rings" viewBox="0 0 108 108" fill="none" stroke="#fff" stroke-width="2">
+    <circle cx="54" cy="54" r="50"/><circle cx="54" cy="54" r="36"/><circle cx="54" cy="54" r="22"/><circle cx="54" cy="54" r="9"/>
+  </svg>
+  <div class="left">
+    <div class="brand"><img src="icon.svg" alt=""><span>TaskBell</span></div>
+    <h1>Never miss<br><em>the start.</em></h1>
+    <p>Two alarms for every task: a gentle pre-reminder, then a loud alarm when it starts.</p>
+    <div class="pills">
+      <div class="pill dl">
+        <svg width="20" height="20" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 4v20"/><path d="M10 16l8 8 8-8"/><path d="M6 31h24"/></svg>
+        Free for Android
+      </div>
+      <div class="pill ghost">Private · Auto backup</div>
+    </div>
+  </div>
+  <div class="phone p2"><img src="../screenshots/start-alarm.png" alt=""></div>
+  <div class="phone p1"><img src="../screenshots/today.png" alt=""></div>
+</body>
+</html>
