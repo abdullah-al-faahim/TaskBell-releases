@@ -6,14 +6,14 @@
 
 **Never miss the start.**
 
-A private, offline task manager for Android that rings twice for every task:
+A private task manager for Android that rings twice for every task:
 a gentle pre-reminder before it, and a loud alarm when it starts.
 
 <a href="https://github.com/abdullah-al-faahim/TaskBell-releases/releases/latest/download/TaskBell.apk">
   <img src="assets/download-button.svg" width="280" alt="Download APK">
 </a>
 
-<sub>Android 8.0 or newer &nbsp;·&nbsp; No internet permission &nbsp;·&nbsp; Free</sub>
+<sub>Android 8.0 or newer &nbsp;·&nbsp; Auto backup &nbsp;·&nbsp; Free</sub>
 
 <br>
 
@@ -43,12 +43,16 @@ a gentle pre-reminder before it, and a loud alarm when it starts.
 | **Everything in one place** | Description with links, checklist, files and photos, people with Call, SMS, WhatsApp and Email buttons, and a Google Maps link or address with Navigate. |
 | **Your way** | Categories, priority (High and Urgent keep ringing until you answer), repeat, alarm sound, vibration and snooze per task. |
 | **Reliable** | Alarms survive restarts, app updates and time-zone changes. Missed alarms go to a Missed list. |
-| **Backup you control** | One `.tbk` file saved to a folder you pick, with a preview before restoring. |
+| **Backup you control** | One `.tbk` file saved to a folder you pick, with a preview before restoring. Turn on automatic backup daily, weekly or monthly; it replaces one file so old backups never pile up. |
+| **Updates in the app** | TaskBell tells you when a new version is out and installs it for you. Your tasks and alarms stay. |
 
 ## Privacy
 
-TaskBell has **no internet permission**, no account, no ads and no analytics. Your data never leaves the phone
-unless you save a backup file yourself. Android cloud backup is turned off for the app.
+TaskBell has no account, no ads and no analytics. **Your tasks never leave the phone** unless you save a backup
+file yourself. Android cloud backup is turned off for the app.
+
+The only internet use is a once-a-day check of this repository's latest release, so the app can offer updates.
+No task data is sent. You can turn it off in **Settings > About and updates**.
 
 ## Install
 
