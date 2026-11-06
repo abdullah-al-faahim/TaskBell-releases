@@ -1,26 +1,49 @@
+<div align="center">
+
+<img src="assets/icon.svg" width="96" alt="TaskBell icon">
+
 # TaskBell
 
-**Never miss the start.** TaskBell is a private, offline task manager for Android that rings twice for every task:
-a gentle pre-reminder before it, and a loud alarm when it starts. Each task keeps its notes, files, people and
-place in one spot.
+**Never miss the start.**
 
-This repository hosts the public app releases. Download the APK from **[Releases](../../releases/latest)**.
+A private, offline task manager for Android that rings twice for every task:
+a gentle pre-reminder before it, and a loud alarm when it starts.
 
-<p>
-<img src="screenshots/today.png" width="200" alt="Today screen">
-<img src="screenshots/new-task.png" width="200" alt="New task">
-<img src="screenshots/start-alarm.png" width="200" alt="Start alarm over the lock screen">
-<img src="screenshots/alarm-health.png" width="200" alt="Alarm health check">
-</p>
+<a href="https://github.com/abdullah-al-faahim/TaskBell-releases/releases/latest/download/TaskBell.apk">
+  <img src="assets/download-button.svg" width="280" alt="Download APK">
+</a>
+
+<sub>Android 8.0 or newer &nbsp;·&nbsp; No internet permission &nbsp;·&nbsp; Free</sub>
+
+<br>
+
+[Website](https://abdullah-al-faahim.github.io/TaskBell-releases/) &nbsp;·&nbsp;
+[All releases](https://github.com/abdullah-al-faahim/TaskBell-releases/releases) &nbsp;·&nbsp;
+[Install help](#install)
+
+</div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="screenshots/today.png" width="190" alt="Today screen"><br><sub><b>Today</b><br>Everything due, in order</sub></td>
+    <td align="center"><img src="screenshots/new-task.png" width="190" alt="New task"><br><sub><b>Quick entry</b><br>Name, time, save</sub></td>
+    <td align="center"><img src="screenshots/start-alarm.png" width="190" alt="Start alarm over the lock screen"><br><sub><b>Start alarm</b><br>Covers the lock screen</sub></td>
+    <td align="center"><img src="screenshots/alarm-health.png" width="190" alt="Alarm health check"><br><sub><b>Alarm health</b><br>Checks your phone's settings</sub></td>
+  </tr>
+</table>
 
 ## What it does
 
-- **Two alarms per task.** A pre-reminder at the lead time you pick (5 min to 1 day, or custom), and a start alarm that covers the lock screen and rings even in silent mode.
-- **Quick entry.** Type a name, tap a time, save. You see "Alarms set: 4:45 PM and 5:00 PM".
-- **Everything in one place.** Description with links, checklist, files and photos, people with Call, SMS, WhatsApp and Email buttons, and a Google Maps link or address with Navigate.
-- **Your way.** Categories, priority (High and Urgent keep ringing until you answer), repeat, alarm sound, vibration and snooze per task.
-- **Reliable.** Alarms survive restarts, app updates and time-zone changes. Missed alarms go to a Missed list. An alarm health screen checks your phone's settings and rings a test alarm.
-- **Backup you control.** One `.tbk` file saved to a folder you pick, with a preview before restoring.
+| | |
+|---|---|
+| **Two alarms per task** | A pre-reminder at the lead time you pick (5 min to 1 day, or custom), and a start alarm that covers the lock screen and rings even in silent mode. |
+| **Quick entry** | Type a name, tap a time, save. You see "Alarms set: 4:45 PM and 5:00 PM". |
+| **Everything in one place** | Description with links, checklist, files and photos, people with Call, SMS, WhatsApp and Email buttons, and a Google Maps link or address with Navigate. |
+| **Your way** | Categories, priority (High and Urgent keep ringing until you answer), repeat, alarm sound, vibration and snooze per task. |
+| **Reliable** | Alarms survive restarts, app updates and time-zone changes. Missed alarms go to a Missed list. |
+| **Backup you control** | One `.tbk` file saved to a folder you pick, with a preview before restoring. |
 
 ## Privacy
 
@@ -29,11 +52,16 @@ unless you save a backup file yourself. Android cloud backup is turned off for t
 
 ## Install
 
-1. Download `TaskBell-<version>.apk` from the latest release on your Android phone (Android 8.0 or newer).
-2. Open it and allow installing from your browser or file manager when asked.
-3. Follow the three setup steps, then try the test alarm.
+1. On your Android phone, tap **Download APK** above.
+2. Open the downloaded file. If asked, allow your browser or file manager to install apps.
+3. Follow the three setup steps, then ring the test alarm.
 
 Uninstalling the app deletes its data. Make a backup first (Settings > Backup and restore).
+
+### Phones that stop background apps
+
+On Xiaomi, Oppo, Realme, Vivo, Samsung and Huawei phones, open **Settings > Alarm health** in TaskBell. It shows
+the steps for your phone so alarms ring on time.
 
 ## Verify the download
 
@@ -44,8 +72,3 @@ SHA-256: 3684c5360f30def918c14da9e1dbcbf5fd88ade7f3b2493e9eb935f0bb0dac91
 ```
 
 Each release lists the SHA-256 of the APK file.
-
-## Phones that stop background apps
-
-On Xiaomi, Oppo, Realme, Vivo, Samsung and Huawei phones, open **Settings > Alarm health** in TaskBell. It shows
-the steps for your phone so alarms ring on time.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-label="Download TaskBell APK for Android">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B5CE6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="278" height="70" rx="16" fill="url(#g)" stroke="#0B1E5B" stroke-opacity=".25"/>
+  <g transform="translate(22 18)" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 3v22"/>
+    <path d="M9 17l9 9 9-9"/>
+    <path d="M4 33h28"/>
+  </g>
+  <text x="74" y="31" fill="#DCE6FF" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing=".4">GET IT FOR ANDROID</text>
+  <text x="74" y="54" fill="#FFFFFF" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700">Download APK</text>
+</svg>
